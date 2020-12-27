@@ -676,11 +676,6 @@ body {
 
 #resume-checkbox {
   margin-right: 12px;
-  background-color: #EB9C1D;
-}
-
-#resume-checkbox:checked {
-  background-color: #EB9C1D;
 }
 
 .block-1 {
@@ -721,6 +716,10 @@ body {
 
 #error-footer {
   height: 140px;
+}
+
+#error-top-footer {
+  opacity: 0.5;
 }
 
 .error-main {
