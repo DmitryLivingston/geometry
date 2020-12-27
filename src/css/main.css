@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Formular';
+    src: local('Formular Regular'), local('Formular-Regular'),
+        url('../fonts/Formular/Formular.woff2') format('woff2'),
+        url('../fonts/Formular/Formular.woff') format('woff'),
+        url('../fonts/Formular/Formular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Formular';
+    src: local('Formular Bold'), local('Formular-Bold'),
+        url('../fonts/Formular-Bold/Formular-Bold.woff2') format('woff2'),
+        url('../fonts/Formular-Bold/Formular-Bold.woff') format('woff'),
+        url('../fonts/Formular-Bold/Formular-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Geometria';
+    src: local('Geometria Bold'), local('Geometria-Bold'),
+        url('../fonts/Geometria-Bold/Geometria-Bold.woff2') format('woff2'),
+        url('../fonts/Geometria-Bold/Geometria-Bold.woff') format('woff'),
+        url('../fonts/Geometria-Bold/Geometria-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }

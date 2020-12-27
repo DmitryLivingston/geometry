@@ -1,0 +1,63 @@
+.block-1
+    border-bottom: 1px solid $borders-color
+    &-child
+        height: 244px
+        border-left: 1px solid $borders-color
+        border-right: 1px solid $borders-color
+.block-2
+    border-bottom: 1px solid $borders-color
+    &-child
+        height: 244px
+        border-left: 1px solid $borders-color
+        border-right: 1px solid $borders-color
+        display: flex
+        align-items: flex-end
+.block-3
+    border-bottom: 1px solid $borders-color
+    &-child
+        height: 100px
+        border-left: 1px solid $borders-color
+        border-right: 1px solid $borders-color
+#error-footer
+    height: 140px
+
+#error-top-footer
+
+.error-main
+    background: url(../img/error/404.png) no-repeat  center top 100px, url(../img/error/404-top.png) no-repeat  center top 101px, url(../img/error/spiral.png) no-repeat center top 245px
+
+.spiral
+    position: absolute
+    width: 635px
+    height: 599px
+    left: 645px
+    top: 245px
+
+.child_text
+    width: 100%
+    display: flex
+    justify-content: space-between
+    height: 100px
+    &_link
+        display: flex
+        flex-direction: column
+        align-items: center
+        height: 100%
+        width: 694px
+        p
+            font-family: Geometria
+            font-style: normal
+            font-weight: bold
+            font-size: 26px
+            line-height: 120%
+            color: $text-color
+            white-space: nowrap
+        a
+            text-decoration: none
+            color: $elements-color
+#child-links
+    display: flex
+    align-items: flex-end
+#to_prime
+    border-bottom: 1px dashed $elements-color
+    margin-right: 10px

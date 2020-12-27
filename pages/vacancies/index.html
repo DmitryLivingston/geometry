@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../src/css/main.css">
+    <link rel="stylesheet" href="../../src/css/style.css">
+</head>
+
+<body>
+    <!-- Шапка сайта -->
+    <div class="header">
+        <div class="container">
+            <div class="wrap" id="header-wrap">
+                <div class="logo"><img src="../../src/img/header/header-logo.png" alt=""></div>
+                <div class="header_number_menu">
+                    <div class="header_number">
+                        <a href="tel:88001234567" class="phone">8 800 123 45 67</a>
+                        <p>Благовещенск</p>
+                    </div>
+                    <div class="header_menu"><img src="../../src/img/header/hamburger.png" alt="="></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Основное содержание -->
+    <div class="main-block">
+        <!-- Блок  с описанием-->
+        <div class="about">
+            <div class="container">
+                <div class="wrap">
+                    <!-- Меню -->
+                    <div class="menu"><a href="#" class="menu_prime">Главная</a>/<a href="#"
+                            class="menu_contacts">Вакансии</a></div>
+                    <div class="vacancies-title">
+                        <h2>Вакансии</h2>
+                    </div>
+                    <!-- Текст -->
+                    <div class="about-text">
+                        <h4>Мы одна команда!</h4>
+                        <p>Геометрия - это не просто работа, это образ жизни! Здесь ты точно найдешь друзей и
+                            единомышленников, с которыми так приятно работать в одной команде. Коллеги всегда придут
+                            тебе на
+                            помощь и поддержат твои самые сумасшедшие идеи!</p>
+                        <p>В Геометрии ты всегда будешь в курсе всех новинок в сфере недвижимости, станешь экспертом в
+                            этой
+                            области и сможешь проявить свои способности не только в работе, но и в корпоративных
+                            мероприятиях. Сотрудники Геометрии снимаются в рекламе, бегеют марафоны, с ними делают
+                            селфи...
+                            Всего не перечислить.</p>
+                        <p>Геометрия - отличное место для того, чтобы заниматься любимым делом и строить карьеру,
+                            реализовывать крутые идеи и вдохновляться, найти новых друзей и раскрыть таланты!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Картинка под блоком с текстом -->
+        <div class="about-img-block">
+            <div class="container">
+                <div class="about-img">
+                    <img src="../../src/img/vacancies-about/about-img.png" alt="Рукопожатие">
+                </div>
+            </div>
+        </div>
+        <!-- Блок со списком вакансий -->
+        <div class="vacancies-list">
+
+            <div class="vacancies-box">
+                <div class="container">
+                    <div class="vacancies-block">
+                        <p>Риэлтор</p>
+                        <div class="list-img"><a href="#"><img src="../../src/img/vacancies-title/list.png" alt="+"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vacancies-box">
+                <div class="container">
+                    <div class="vacancies-block">
+                        <p>Юристконсульт</p>
+                        <div class="list-img"><a href="#"><img src="../../src/img/vacancies-title/list.png" alt="+"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vacancies-box">
+                <div class="container">
+                    <div class="vacancies-block">
+                        <p>Ипотечный брокер</p>
+                        <div class="list-img"><a href="#"><img src="../../src/img/vacancies-title/list.png" alt="+"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vacancies-box">
+                <div class="container">
+                    <div class="vacancies-block">
+                        <p>Руководитель филиала</p>
+                        <div class="list-img"><a href="#"><img src="../../src/img/vacancies-title/list.png" alt="+"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Блок с формой резюме -->
+        <div class="resume">
+            <div class="container">
+                <div class="wrap">
+                    <div class="resume-title">
+                        <h2>Оставить резюме</h2>
+                    </div>
+                    <form class="resume_form" autocomplete="on" action="#" enctype="multipart/form-data" method="POST">
+                        <div class="resume_name_input">
+                            <p>Ваше ФИО</p>
+                            <input type="text">
+                        </div>
+                        <div class="resume_phone_input">
+                            <p>Ваш телефон*</p>
+                            <input type="text" id="phone_mask">
+                        </div>
+                        <div class="resume_mail_input">
+                            <p>Ваш E-mail*</p>
+                            <input type="mail">
+                        </div>
+                    </form>
+                    <div class="resume_text">
+                        <textarea class="textarea" name="textarea" placeholder="Комментарий"></textarea>
+                    </div>
+                    <!-- Кнопка прикрепления файлов -->
+                    <div class="resume-file">
+                        <div class="file-btn">
+                            <label for="files">
+                                <img src="../../src/img/resume/resume-clip.png" alt="скрепка"> Прикрепить резюме
+                            </label>
+                        </div>
+                        <form enctype="multipart/form-data" action="#" method="POST">
+                            <input id="files" style="visibility:hidden" type="file">
+                        </form>
+                    </div>
+                    <!-- Кнопка отправки, конфиденциальность и чекбокс-->
+                    <div class="resume-send">
+                        <div class="confidentional">
+                            <div class="check">
+                                <input type="checkbox" id="resume-checkbox">
+                            </div>
+                            <div class="confidentional-text">
+                                <span>Я согласен на обработку персональных данных в соответствии с <a href="#"> Политикой конфиденциальности</a></span>
+                            </div>
+                        </div>
+                        <div class="send-button">
+                            <button class="btn" id="resume-btn"><i class="far fa-paper-plane"></i> Отправить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <!-- Подвал сайта -->
+      <footer>
+        <div class="first_footer">
+            <div class="container d-flex justify-content-between">
+                <div class="footer-logo"><img src="../../src/img/footer/footer-logo.png" alt="Геометрия"></div>
+                <div class="partners_link"><a href="#"> Стать партнером <i class="fas fa-chevron-right"></i></a></div>
+                <div class="soc_block"><a href="#"><i class="fab fa-whatsapp"></i></a> <a href="#"><i class="fab fa-instagram"></i></a></div>
+            </div>
+        </div>
+        <div class="second_footer">
+            <div class="container d-flex justify-content-between">
+                <div>© 2019-2021 Дом Недвижимости Геометрия</div>
+                <div><a href="#">Политика конфиденциальности</a></div>
+                <div><a href="#"><img src="../../src/img/footer/dark-logo.png" alt=""></a></div>
+            </div>
+        </div>
+    </footer>
+
+
+        <!-- Скрипты -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+        <script src="../../src/js/jquery.maskedinput.min.js"></script>
+        <script>
+            $(function () {
+                $("#phone_mask").mask("+7(999) 999-9999");
+            });
+        </script>
+</body>
+
+</html>
